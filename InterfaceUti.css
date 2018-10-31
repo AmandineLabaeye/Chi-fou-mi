@@ -1,0 +1,56 @@
+#Titre {
+    border: black solid;
+    border-radius: 20px;
+}
+
+
+#Bloc {
+    border: black solid 5px;
+    border-radius: 20px;
+}
+
+#CaseNomUti {
+    color: darkred;
+    font-size: 25px;
+    border-bottom: black solid 5px;
+    border-right: black solid;
+}
+
+#CaseNomOrdi {
+    color: darkred;
+    font-size: 25px;
+    border-left: black solid;
+    border-bottom: black solid 5px;
+}
+
+#ImageUti {
+    border-right: black solid;
+}
+
+#ImageOrdi {
+    border-left: black solid;
+    color: black;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+#Victoire {
+    font-size: 25px;
+    color: black;
+}
+
+#Egalite {
+    font-size: 25px;
+    color: black;
+}
+
+#Defaite {
+    font-size: 25px;
+    color: black;
+}
+
+
+
