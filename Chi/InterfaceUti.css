@@ -1,0 +1,69 @@
+body {
+    background-image: url("https://media.giphy.com/media/vmRSDJK4nY9UY/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Titre {
+    border: white solid;
+    border-radius: 20px;
+    color: white;
+}
+
+
+#Bloc {
+    border: white solid 5px;
+    border-radius: 20px;
+}
+
+#CaseNomUti {
+    color: darkred;
+    font-size: 25px;
+    border-bottom: white solid 5px;
+    border-right: white solid;
+}
+
+#CaseNomOrdi {
+    color: darkred;
+    font-size: 25px;
+    border-left: white solid;
+    border-bottom: white solid 5px;
+}
+
+#ImageUti {
+    border-right: white solid;
+}
+
+#ImageOrdi {
+    border-left: white solid;
+    color: white;
+
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+#Victoire {
+    font-size: 25px;
+    color: white;
+}
+
+#Egalite {
+    font-size: 25px;
+    color: white;
+}
+
+#Defaite {
+    font-size: 25px;
+    color: white;
+}
+
+#ChoixOrdi {
+
+}
+
+
+
+

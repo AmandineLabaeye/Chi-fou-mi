@@ -15,14 +15,17 @@ document.getElementById("pierre").addEventListener("click", function () {
 
         if (ChoixOrdi==1) {
             alert('Egalité / Il a fait Pierre');
+            document.getElementById('ChoixOrdi').src="assets/img/Rock-paper-scissors_(rock).png";
             Egalite ();
         }
         if (ChoixOrdi== 2) {
             alert('Tu as perdu / Il a fait Feuille');
+            document.getElementById('ChoixOrdi').src="assets/img/Rock-paper-scissors_(paper).png";
             Defaite ();
         }
         if (ChoixOrdi== 3) {
             alert('Tu as gagné / Il a fait Ciseaux');
+            document.getElementById('ChoixOrdi').src="assets/img/Rock-paper-scissors_(scissors).png";
             Victoire ();
         }
     });
@@ -38,14 +41,17 @@ document.getElementById('feuille').addEventListener("click", function () {
 
         if (ChoixOrdi == 1) {
             alert('Egalité / Il a fait Feuille');
+            document.getElementById('ChoixOrdi').src="assets/img/Rock-paper-scissors_(paper).png";
             Egalite ();
         }
         if (ChoixOrdi == 2) {
             alert('Tu as perdu / Il a fait Ciseaux');
+            document.getElementById('ChoixOrdi').src="assets/img/Rock-paper-scissors_(scissors).png";
             Defaite ();
         }
         if (ChoixOrdi == 3) {
             alert('Tu as gagné / Il a fait Pierre');
+            document.getElementById('ChoixOrdi').src="assets/img/Rock-paper-scissors_(rock).png";
             Victoire ();
         }
     });
@@ -61,14 +67,17 @@ document.getElementById('ciseaux').addEventListener("click", function () {
 
         if (ChoixOrdi == 1) {
             alert('Egalité / Il a fait Ciseaux');
+            document.getElementById('ChoixOrdi').src="assets/img/Rock-paper-scissors_(scissors).png";
             Egalite ();
         }
         if (ChoixOrdi == 2) {
-            alert('Tu as perdu / Il a fait Feuille');
+            alert('Tu as perdu / Il a fait Pierre');
+            document.getElementById('ChoixOrdi').src="assets/img/Rock-paper-scissors_(rock).png";
             Defaite ();
         }
         if (ChoixOrdi == 3) {
-            alert('Tu as gagné / Il a fait Pierre');
+            alert('Tu as gagné / Il a fait Feuille');
+            document.getElementById('ChoixOrdi').src="assets/img/Rock-paper-scissors_(paper).png";
             Victoire ();
         }
     });
